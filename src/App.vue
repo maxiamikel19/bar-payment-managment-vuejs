@@ -1,14 +1,11 @@
 <script setup>
-import BillControlMain from "./components/BillControlMain.vue";
-
-
-
-  components: { BillControlMain }</script>
+import TipView from "./components/TipView.vue";
+</script>
 
 <template>
-  <bill-control-main />
+  <main>
+    <TipView />
+  </main>
 </template>
 
-<style scoped>
-
-</style>
+<style></style>
